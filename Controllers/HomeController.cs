@@ -46,6 +46,10 @@ namespace Tutorials_CoreMVC.Controllers
         {
             return View();
         }
+        public IActionResult DropDown2()
+        {
+            return View();
+        }
         public IActionResult Form1()
         {
             return View();
@@ -55,10 +59,16 @@ namespace Tutorials_CoreMVC.Controllers
         {
             return View();
         }
-          public IActionResult Form3()
+        public IActionResult Form3()
         {
             return View();
         }
+
+        public IActionResult Spacing()
+        {
+            return View();
+        }
+        
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
