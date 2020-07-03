@@ -27,7 +27,39 @@ namespace Tutorials_CoreMVC.Controllers
         {
             return View();
         }
+        public IActionResult Alert()
+        {
+            return View();
+        }
 
+        public IActionResult Link()
+        {
+            return View();
+        }
+
+        public IActionResult Button()
+        {
+            return View();
+        }
+
+        public IActionResult DropDown()
+        {
+            return View();
+        }
+        public IActionResult Form1()
+        {
+            return View();
+        }
+
+        public IActionResult Form2()
+        {
+            return View();
+        }
+          public IActionResult Form3()
+        {
+            return View();
+        }
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
